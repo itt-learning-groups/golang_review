@@ -2,7 +2,7 @@
 
 ## Ch. 11 Exercises for 2021_06_09 Meeting
 
-1. Consider the following example.
+Consider the following example.
   
   a. There is a bug in the code.
   * Write a unit test for the `ReadFile` function.

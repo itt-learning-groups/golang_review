@@ -2,7 +2,7 @@
 
 ## Ch. 11 Exercises for 2021_06_09 Meeting
 
-Consider the following example. *(Note: This example is copied in the accompanying Reader_Exercise_1.go file, along with a "starter" unit test.)*
+Consider the following example. *(Note: This example is copied in the accompanying file_reader_exercise.go file, along with a "starter" unit test.)*
   
   a. There is a bug in the code.
   * Write a unit test for the `ReadFile` function.

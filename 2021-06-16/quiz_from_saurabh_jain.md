@@ -11,7 +11,7 @@ func main() {
 	ctx, cancel := context.WithCancel(context.Background())
 	fmt.Println("Hello")
 	go func() {
-		time.Sleep(time.Second)
+		time.Sleep(3 * time.Second)
 		cancel()
 	}()
 

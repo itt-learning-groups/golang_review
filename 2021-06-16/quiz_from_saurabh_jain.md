@@ -25,3 +25,11 @@ func main() {
 
 7. what indicates cancel() function?
 8. In which sitiuation we can use TODO context?
+10. Is this code safe to run?
+func doSomething() {
+	ctx, cancel := context.WithCancel(ctx)
+	defer cancel()
+
+	someArg := "loremipsum"
+	go doSomethingElse(ctx, someArg)
+}

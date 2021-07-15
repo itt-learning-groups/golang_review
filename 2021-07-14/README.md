@@ -17,9 +17,16 @@
 
 ## Assignment for July 28
 
+Readings:
+
 * *Learning Go*: Ch.10
 * *Concurrency in Go*: Chs. 1-3
-* Exercise TBA: Probably simple collaboration to expand the checklists for "good" and "bad" tests below. We'll decide on the details by the end of the meeting.
+
+
+Exercises:
+
+1. Collaboration to fill in the checklists for "good" and "bad" tests below: Ping me with your GitHub username; I'll add you as a collaborator on this repo. Submit a PR with >= 2 additions to the "Good tests" checklist and to the "Bad tests" checklist below. (These should be characteristics/flags that can help us identiry a test or set of tests that would normally be "good" or "bad" examples of best-practice unit testing.) If there are other items on the checklist when you submit yours, also read through the checklist and re-prioritize it so the more important characteristics/flags are at the top of the list (as you interpret things).
+2. Give the [stretchr/testify `mock` package](https://github.com/stretchr/testify#mock-package) a test-drive if you haven't before. This is something I wanted to do during our session today, but we didn't have time.
 
 ## "Lab"
 

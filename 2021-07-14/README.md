@@ -144,6 +144,14 @@ As part of this discussion, consider what [Donovan and Kernighan have to say](ht
 
 * A good unit test should be easily readable. By this I mean that the setup should be clear, your test values defined in such a way that it's easy to tell what is being tested. The action portion ( usually a method call ) is pretty straight forward, Getting the returns or values to assert expectations on. Finally the assertions should comunicate clearly what the failure is if it fails. you shouldn't have to dig back through to figure out what failed in a failure instance.
 * A good unit test should be reliable. If your unit test is flacky, the system under test isn't set up in a way that you are only testing what you are asserting on. Also it's a possible indicator that you haven't throughly tested possible error states of the system.
+
+* A good unit test should have all the test methods are designed around arrange, act and assert.
+* A good unit test should be run any time on any place without needing configuration.
+* A good unit test don’t need access to database and network resources.
+* A good unit test should cover all possible scenarios and strive for high code coverage and ensuring good quality metrics. Unit Test methods must exercise all possible use case scenarios to test the input validations, errors messages and exceptions and so on.
+* A good unit test must be independent of another test. In other words, no collateral damage. Hence, a Unit Test must focus only on a small aspect of big functionality. When this Unit Test fails, it should be easy to discover where the issue is in the code. In other words can be tested in isolation.
+                              *That's why I'm reading clean code book :laughing::laughing:*
+
 * ...
 * ...
 * ...

@@ -151,7 +151,7 @@ As part of this discussion, consider what [Donovan and Kernighan have to say](ht
 * A good unit test should cover all possible scenarios and strive for high code coverage and ensuring good quality metrics. Unit Test methods must exercise all possible use case scenarios to test the input validations, errors messages and exceptions and so on.
 * A good unit test must be independent of another test. In other words, no collateral damage. Hence, a Unit Test must focus only on a small aspect of big functionality. When this Unit Test fails, it should be easy to discover where the issue is in the code. In other words can be tested in isolation.
 
-> > > > > > >   That's why I'm reading clean code book :laughing::laughing: (SJ)
+> > > > > > >   That's why I'm reading clean code book :laughing::laughing: (SJ) <-- :laughing: (RK)
 
 * ...
 * ...
